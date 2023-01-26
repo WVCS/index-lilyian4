@@ -1,0 +1,63 @@
+<body>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <ul> 
+    <li><a href="index.home"> Home </a></li>
+    <li><a href="https://sites.google.com/stu.powayusd.com/ian-lai-college-portfolio/home"> Online Portfolio </a> </li>
+    <li><a href=""> Noun Project </li>
+    <li><a href=""> N/A </a> <li>       
+  </ul>
+  
+  <br>
+  <br>
+  <h1> Noun Project </h1> 
+  <h1> Noun: Goalkeeper </h1> 
+  <h2> Goaltender's def: A player in soccer or hockey whose special role is to stop the ball or puck from entering the goal. </h2> 
+  
+  
+  
+  <table align="center" id="classes">
+    <tr>
+      <th> Highschool </th>
+      <th> Club Soccer </th>
+      <th> Goalkeeper </th>
+    </tr>
+    
+   <tr> 
+     <td> Coach Calin </td>
+     <td> Coach Bello </td>
+     <td> Coach Cris </td>
+    </tr>
+    
+    <tr> 
+     <td> WESTVIEW </td>
+     <td> FC Golden State </td>
+     <td> Cris Neg Goalkeeping </td>
+    </tr>
+    
+    <tr> 
+     <td> Freshmen </td>
+     <td> 07 Team A </td>
+     <td> (No Team) </td>
+    </tr>
+  </table>
+   <p> My Favorite parts about being a Goalkeeper </p>
+    <li> Team </li>
+    <li> Coach </li>
+    <li> Fun sport </li>
+    <li> Command </li>
+  </ol>
+<right>
+<img src="https://i.pinimg.com/originals/57/8a/06/578a06df85106b1e06334d3ce4e26fce.png" alt="Goalie" style="float:left;width:39; height:200px; width:200px">
+
+<img
+src="https://tse2.mm.bing.net/th?id=OIP.xGA89N4WZ7BBJjffEHfR0wHaGl&pid=Api&P=0" alt="FCGS" style="float:left;width:39; height:200px; width:200px">
+  
+<img
+src="https://static.wixstatic.com/media/25f7d4_4e4a168f2bcb4a6a89e0fbd3b6eddb18~mv2.png/v1/crop/x_23,y_77,w_553,h_685/fill/w_313,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/COACHES%203.png" alt="Coach Bello" style="float:left;width:39; height:200px; width:200px">
+  
+  <img
+src="https://static.wixstatic.com/media/25f7d4_a2cadaa34ec84d3fbf30936186c906eb~mv2.png/v1/crop/x_74,y_48,w_459,h_593/fill/w_300,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/COACHES%202.png" alt="Coach Cris" style="float:left;width:39; height:200px; width:200px">
+ 
+</body>
