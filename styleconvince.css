@@ -1,1 +1,78 @@
+body {
+  background-color: cyan;
+}
+
+h1 {
+  font-size: 400%;
+  color: gold;
+  text-align: center;
+}
+
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 50%;
+  }
+
+td, th {
+  border: 10px solid gold;
+  text-align: center;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+a {
+  color: black;
+  font-size: 190%;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: Gold;
+  width: 1000%;
+  top: 0;
+  left: 0;
+  
+}
+
+li {
+  display: inline;
+  float: left;
+width: 300px;
+padding: 7px;
+margin: 6px;}
+
+li a:hover {
+  background-color: #111;
+  color: silver;
+  font-size: 32px;
+}
+
+img {
+  border-radius: 50%;
+  <img height="pixels">
+}
+
+ul {
+   list-style-type: circle;
+  line-height:80%;
+}
+
+#one {
+background-color: gold;  
+border: dotted 4px;
+width: 40%;
+}
+
+#one li {
+background-color: white;  
+border: dotted 3px;
+width: 40%;
 
