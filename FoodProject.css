@@ -1,0 +1,159 @@
+:root {
+    --white: #F0E7DE;
+    --BrightRed: #DC2424;
+    --LowRed: #E16662;
+    --LowBlack: #0C0A08;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100vw;
+    height: 50px;
+    background-color: #DC2424;
+    max-height: 50px;
+    font-size: 25px;
+    color: var(--white);
+    vertical-align: middle;
+}
+
+header a {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+body{
+    background-color: #E16662;
+    color: var(--LowRed);
+    overflow-x: hidden;
+}
+
+.HeadIMG {
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(sushi background.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin-left: -8px;
+    color: #F0E7DE;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    background-color: #E16662;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    grid-template:
+        "A B C"
+        "D E F";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.montage {
+    width: 97vw;
+    height: 30vw;
+    margin-right: 0px;
+    margin-left: -8px;
+}
+
+.Loc {
+    background-image: url(Locationsfood.png.crdownload);
+    background-size: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.Men {
+    background-image: url(Menupick.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.His {
+    background-image: url(history.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.Emp {
+    background-image: url(Employment.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.Mer {
+    background-image: url(Merch.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.Fou {
+    background-image: url(foundation.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 75px;
+}
+
+.A {
+    grid-area: 1 / 1 / 1 / 1;
+  /*row line / column line / end row / end column*/
+}
+
+.B {
+    grid-area: 2 / 2 / 2 / 1;
+  /*row line / column line / end row / end column*/
+}
+
+.C {
+    grid-area: 1 / 2 / 1 / 2;
+  /*row line / column line / end row / end column*/
+}
+
+.D {
+    grid-area: 2 / 2 / 2 / 2;
+  /*row line / column line / end row / end column*/
+}
+
+.E {
+    grid-area: 1 / 3 / 1 / 3;
+  /*row line / column line / end row / end column*/
+}
+
+.F {
+    grid-area: 2 / 3 / 2 / 3;
+  /*row line / column line / end row / end column*/
+}
+a:link {
+    text-decoration: none;
+    color: var(--LowRed);
+}
+a:visited {
+    text-decoration: none;
+    color: var(--LowRed);
+}
+a:hover {
+    color: var(--White);
+}
+a:active {
+    text-decoration: none; 
+    color: var(--LowRed);
+}
