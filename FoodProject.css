@@ -33,7 +33,7 @@ body{
 }
 
 .HeadIMG {
-    background: url(sushi background.gif);
+    background-image: url(sushi%20background.gif);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
