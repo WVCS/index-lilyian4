@@ -1,0 +1,68 @@
+:root {
+    --white: #F0E7DE;
+    --BrightRed: #DC2424;
+    --LowRed: #E16662;
+    --LowBlack: #0C0A08;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100vw;
+    height: 50px;
+    background-color: #DC2424;
+    max-height: 50px;
+    font-size: 25px;
+    color: var(--white);
+    vertical-align: middle;
+}
+
+header a {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+body{
+    background-color: #E16662;
+    color: var(--white);
+    overflow-x: hidden;
+    font-size: 50px;
+}
+
+.HeadIMG {
+    background-image: url(sushi%20background.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin-left: -8px;
+    color: #F0E7DE;
+    justify-content: center;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--LowRed);
+}
+a:visited {
+    text-decoration: none;
+    color: var(--LowRed);
+}
+a:hover {
+    color: var(--white);
+}
+a:active {
+    text-decoration: none; 
+    color: var(--white);
+}
+
+.boxxer {
+  border-color: black;
+  border: dotted;
+  color: var(--BrightRed);
+}
