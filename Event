@@ -1,0 +1,215 @@
+<html>
+  
+  <head>
+    <title>Japan tsunami
+ </title>  
+  </head>
+  
+  <body>
+    
+    <nav>
+  <ul> 
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="https://sites.google.com/stu.powayusd.com/ian-lai-college-portfolio/home"> Online Portfolio </a> </li>
+    <li><a href="Nouns.html"> Noun Assignment </li>
+    <li><a href="Convince.html"> Convince Project </a> </li>
+    <li><a href="FoodProject.html"> Food Project </a> </li>
+    <li><a href=""> Event Project </a> </li>    
+  </ul>
+      </nav>  
+   
+    <center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     
+       <div class="wrapper">
+      <div class="A"> Tōhoku earthquake and tsunami
+March 11, 2011
+      <br>
+        <img src="" width="250vh"></div>
+      <br>
+      <br>
+      <br>
+     
+     <div class="B">
+        
+National Geographic<br> Presenting this documentary<br>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/oWzdgBNfhQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+       </div>
+       <div class="C"> What was the effects of the tsunami? <br>
+      <br>
+         <ol>
+           <li></li>
+           <br>
+<img src="https://cdn.mos.cms.futurecdn.net/V76CtBkD29zYJxQdkj2WDh-320-80.jpg" width="50%"height="auto"></img>
+   </center>
+         </ol>
+       </div>
+    <br>
+    <br>
+    <br>
+    <center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YpKUhSk2Ff0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mwannQRCYLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </body>
+</html>
+</center>
+
+<style>
+ 
+  body{
+  background-color:#427aa1;
+}
+
+nav {
+  list-style-type:none;
+  position: fixed;
+  width: 110%;
+  background-color: #05668d;
+  left: 0;
+  top:0;
+  font-size: 24px;
+  margin: 0;
+}
+
+.web {
+  display: inline;
+  float: right;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.web:hover {
+  background-color: #457b9d;
+}
+
+.wrapper{
+  display:grid;
+  grid-template:
+    "A"
+    "B C";
+   
+  grid-column-gap:2vw;
+  grid-row-gap: 5vh;
+  width:80vw;
+  margin: auto;
+}
+
+div{
+  border-radius:5vh;
+}
+
+.A{
+  color:black;
+  border: solid black 10px;
+  grid-row: 1/2;
+  grid-column: 1/3;
+  font-size:430%
+}
+
+h1{
+  font-color: #004e64;
+}
+  
+.A{
+  color: white;  
+  }
+  
+.A:hover{
+  color:#004e64;
+  font-size:460%;
+  font-weight:bold;
+}
+.B:hover{
+  color:#004e64;
+  font-size:220%;
+  font-weight:bold;
+}
+.B{
+  color:white;
+  border: solid black 2px;
+  grid-row:2/2;
+  grid-column:1/2;
+  width: 40vw;
+  font-size:200%;
+  height-min:200%;
+}
+.C:hover{
+  color:#004e64;
+  font-size:280%;
+  font-weight:bold;
+}
+.C{
+  color:ivory;
+  border: solid black 2px;
+   grid-row: 2/2;
+  grid-column: 2/3;
+   width: 40vw;
+  font-size:240%;
+}
+
+ol{
+  font-size:60%;
+  color:black;
+}
+
+li {
+  display: inline;
+  float: left;
+width: 300px;
+padding: 7px;
+margin: 6px;}
+
+li a:hover {
+  background-color: #8ecae6;
+  color: #3a86ff;
+  font-size: 32px;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .wrapper{
+    grid-template:
+      "A"
+      "B"
+      "C";
+    
+  }
+  
+  .A{
+   border:#023e8a 15px dotted;
+    width: 80vw;
+  }
+  
+  .B{
+    grid-row:2/3;
+    grid-column:1/3;
+    width:80vw;
+    border:#023e8a 8px dotted;
+  }
+  
+  .C{
+    grid-row:3/3;
+    grid-column:1/2;
+    width:80vw;
+    border:#023e8a 8px dotted;
+  }
+  
+  body{
+    background-color:#90e0ef;
+  }
+  Nav{
+      background-color:#00b4d8;
+  }
+  
+</style>
