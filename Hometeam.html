@@ -1,0 +1,222 @@
+ <body>
+    <nav>
+      <div class="navbar">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <h1>FC Golden 6 </h1>
+            <img src=" " alt="logo">
+        
+          </div>
+          <div class="menu-items">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">FCG6</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">LOCATIONS</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+<div class="section group">
+	<div class="col span_1_of_3">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTajZ8ng-FMGBRLiiMR9ttgKyV9TRHnEJCm7hjCs801OChtOKdge1flL7ToAQs9xY4LHQM:https://d2rzw8waxoxhv2.cloudfront.net/facilities/xlarge/53368e478d9776c6be66/1519431337864-241-47.jpg&usqp=CAU" alt="Stadium" class="responsive">
+	</div>
+	<div class="col span_1_of_3">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3m-VkHuCz41UaWN410QRMr1vgQuQ0o0t3Bg:https://images.squarespace-cdn.com/content/v1/5b46c74312b13f1c549339d0/1586189873550-XJ6N9NYFXA187ZV4HCWS/image3%2B%25288%2529.jpg&usqp=CAU" alt="Soccer 1" class="responsive">
+	</div>
+	<div class="col span_1_of_3">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTePqm5yVRf7DTddRRj_hTKxoU215opErfPeSxuQdeecXyM2k24xRF2dUXBAyDydnNlS0:https://upload.wikimedia.org/wikipedia/commons/a/ad/Football_in_Bloomington%252C_Indiana%252C_1996.jpg&usqp=CAU" alt="soccer 2" class="responsive">
+	</div>
+</div>
+   
+   
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .menu-items {
+  display: flex;
+}
+
+.navbar .nav-container li {
+  list-style: none;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+  height: 60px;
+}
+
+.nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.nav-container .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: white;
+}
+
+.nav-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.navbar .menu-items {
+  padding-top: 120px;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  height: 150vh;
+  width: 100%;
+  transform: translate(-150%);
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+  padding-left: 50px;
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+
+.navbar .menu-items li {
+  margin-bottom: 1 rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+  display: none;
+}
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; }
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+  
+   </style>
